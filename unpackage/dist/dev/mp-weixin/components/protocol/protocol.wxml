@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handelClick',['$event']]]]]}}" class="{{[className]}}" bindtap="__e"><slot></slot></view>

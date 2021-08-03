@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.xx-warp.data-v-181866fe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.xx-warp .order_nav.data-v-181866fe {
+  background: #ffffff;
+}
+.xx-warp .order_nav .order_nav_item.data-v-181866fe {
+  height: 84rpx;
+  line-height: 84rpx;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.xx-warp .order_nav .order_nav_item .order_nav_item_list.data-v-181866fe {
+  width: 100rpx;
+  position: relative;
+  margin: 0 auto;
+  color: #707184;
+}
+.xx-warp .order_nav .order_nav_ative .order_nav_item_list.data-v-181866fe {
+  color: #26273a;
+  font-weight: bold;
+}
+.xx-warp .order_nav .order_nav_ative .order_border.data-v-181866fe {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  background: #26273a;
+  height: 6rpx;
+}
+.xx-warp .order_content .scroll-Y.data-v-181866fe {
+  height: calc(100vh - 84rpx);
+}
+

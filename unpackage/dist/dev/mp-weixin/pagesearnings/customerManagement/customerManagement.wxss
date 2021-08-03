@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.page {
+  width: 750rpx;
+  min-height: 100vh;
+  padding: 23rpx 0 20rpx;
+  background-color: #f6f6f6;
+}
+.page .statistics {
+  width: 702rpx;
+  height: 156rpx;
+  font-family: PingFangSC-Light;
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 48rpx;
+  padding-top: 26rpx;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(https://s.umeibei.com/app/img/customer_bg.png) top center no-repeat, -webkit-linear-gradient(316deg, #44455a 0%, #26273a 100%);
+  background: url(https://s.umeibei.com/app/img/customer_bg.png) top center no-repeat, linear-gradient(134deg, #44455a 0%, #26273a 100%);
+  background-size: 100% 100%;
+  border-radius: 8rpx;
+}
+.page .people-num {
+  font-size: 48rpx;
+  color: #ffffff;
+  line-height: 72rpx;
+}
+.page .list-item {
+  position: relative;
+  width: 702rpx;
+  height: 230rpx;
+  margin: 20rpx auto 0;
+  background: #ffffff;
+  border-radius: 8rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.page .list-item .customer-account {
+  height: 88rpx;
+  padding: 0 48rpx;
+  color: #26273a;
+  font-size: 22rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.page .list-item .line-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 654rpx;
+  height: 2rpx;
+  margin: auto;
+  background-color: #e8e8e8;
+}
+.page .list-item .line-between:after, .page .list-item .line-between:before {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 4rpx;
+  height: 28rpx;
+  top: 74rpx;
+  background: #aa7d71;
+}
+.page .list-item .line-between:after {
+  left: 0;
+  border-radius: 0 20rpx 20rpx 0;
+}
+.page .list-item .line-between:before {
+  right: 0;
+  border-radius: 20rpx 0 0 20rpx;
+}
+.page .list-item .center-line {
+  width: 2rpx;
+  height: 48rpx;
+  background: #e8e8e8;
+}
+.page .list-item .title {
+  font-family: PingFangSC-Regular;
+  font-size: 22rpx;
+  color: #707184;
+  line-height: 32rpx;
+  margin-top: 2rpx;
+}
+.page .list-item .current-value {
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  color: #26273a;
+}
+

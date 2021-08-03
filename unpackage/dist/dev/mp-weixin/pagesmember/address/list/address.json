@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "收货地址",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "layout": "/components/layout/layout",
+    "no-cart": "/pagesmember/address/list/noaddress",
+    "list": "/pagesmember/address/list/list"
+  }
+}

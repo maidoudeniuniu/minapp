@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "物流详情",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "layout": "/components/layout/layout",
+    "u-time-line": "/uview-ui/components/u-time-line/u-time-line",
+    "u-time-line-item": "/uview-ui/components/u-time-line-item/u-time-line-item"
+  }
+}

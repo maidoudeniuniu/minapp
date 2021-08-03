@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "layout": "/components/layout/layout",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "protocol": "/components/protocol/protocol"
+  }
+}

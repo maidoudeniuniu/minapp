@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.imgListBox {
+  width: calc(100vw - 122rpx);
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  overflow: hidden;
+  padding-bottom: 10rpx;
+}
+.imgListBox .imgList {
+  width: 25%;
+  height: calc((100vw - 122rpx)/4);
+  overflow: hidden;
+  margin-bottom: 10rpx;
+}
+.imgListBox .imgList .imgItem {
+  padding: 10rpx;
+  height: calc((100vw - 142rpx)/4);
+  background: #06c;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+}
+.imgListBox .imgNoList {
+  padding: 11rpx;
+  border: #B1B2C1 1rpx dashed;
+  height: calc((100vw - 142rpx)/4);
+  border-radius: 10rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-right: 10rpx;
+}
+.imgListBox .imgNoList .uploadTxt {
+  background: url(data:image/png;base64,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) center top no-repeat;
+  padding-top: 68rpx;
+  background-size: 68rpx auto;
+  text-align: center;
+}
+

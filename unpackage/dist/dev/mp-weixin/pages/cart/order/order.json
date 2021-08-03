@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "确认下单",
+  "usingComponents": {
+    "layout": "/components/layout/layout",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "address-component": "/pages/cart/order/address",
+    "invitation-component": "/components/invitation/invitation",
+    "paytype-component": "/components/pay/pay"
+  }
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.xx-warp.data-v-6fa6d0aa {
+  padding: 0 50rpx;
+}
+.xx-warp .login-form-item.data-v-6fa6d0aa {
+  padding: 20rpx 0;
+}
+.xx-warp .formLabel.data-v-6fa6d0aa {
+  height: 30rpx;
+  line-height: 30rpx;
+  padding: 0 20rpx;
+  margin-top: 5rpx;
+  margin-right: 20rpx;
+}
+.xx-warp .formLabelTxt.data-v-6fa6d0aa {
+  border-right: #ddd 1px solid;
+}
+.xx-warp .formInfo.data-v-6fa6d0aa {
+  height: 40rpx;
+}
+

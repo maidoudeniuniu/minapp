@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "usingComponents": {
+    "layout": "/components/layout/layout",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "apply-item": "/pagesmember/order/applyrefund/applyrefundItem",
+    "image-component": "/components/image/image",
+    "refundcause-component": "/components/refundcause/refundcause"
+  }
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.xx-warp.data-v-2b741e6d {
+  background: #f6f6f6;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+}
+.xx-warp .refundDescription.data-v-2b741e6d {
+  background: #f6f6f6;
+  padding: 20rpx;
+}
+.xx-warp .custom-style.data-v-2b741e6d {
+  color: #606266;
+  padding: 0 auto !important;
+}
+.xx-warp .refundList .refundList-label.data-v-2b741e6d {
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.xx-warp .refundList .refundDescriptionTxt.data-v-2b741e6d {
+  height: 70rpx;
+  line-height: 70rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACF0lEQVRoQ9WaO04jQRCG/xo4BYfxCSDkEWyAtIgQ5iEZiSXoANuAhGwCSIAAwiVYcx9iuAErLUzXqs00DC8J4aruGR9g3N//1VhT85vQ8g+1/PxQBTDGJC4gY4zVCkoT4O21WQNCCYAJIO52zZw79MGBuXU2NEyIA/iDFsVup7R04QAInA6HO9caEOIAwFP6WTYYMdlNAiwRPVhgZXS4PTbGzBpjHqXGSRxgcfH3zNXVUplluwsgGgNgBhIC/oL5x3C480fShDhA9aszmfc07a0hwSkBpZskDRMqAK8git46MU4cQGXiXtKEGkAFMZl3TROqAA7C3xOpkgl1AG0TQQA0TQQD0DIRFEDDRHAAaRNRACRNRAOQMhEVQMJEdIBpTTQCYBoTjQH4xIRlgBKif7V94tVm1yiAOkSe91YZOK/2iRkwbsDojEa/7ur7RIMBBqsM2y4Av25mWf8nE5+5ddSPEFu7/NFe3RgD/rG7KAbrJdtjApKvLECNAPgg+S+voNEBvpu8f6sRFWCa5KMDSK2aUQz45CWW/eAAUslHGSHJ5IMDSCcfFEAj+WAAWskHAdBMXh3AP/JqvVJUBXg+fBtfr/vD53l/nsGu4EDLCo6qYsr7RwzeaF3F9FLy7XVKW15OZjWhtOrHxJtKpUcJX7PuVzXrVntq1lr76MNh31xKNZP16ygZePqKtv/VQCPwd9dUNRCC4D8BY7ZPWm97ugAAAABJRU5ErkJggg==) center right no-repeat;
+  background-size: 30rpx auto;
+  padding-right: 30rpx;
+}
+.xx-warp .refundListPrice.data-v-2b741e6d {
+  background: #f6f6f6;
+  padding: 14rpx;
+}
+.xx-warp .xx-warp-fb.data-v-2b741e6d {
+  background: #ffffff;
+  padding: 14rpx 20rpx;
+}
+

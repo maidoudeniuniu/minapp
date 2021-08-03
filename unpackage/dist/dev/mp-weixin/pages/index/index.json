@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cms": "/components/cms/cms",
+    "warm-component": "/components/warm/warm"
+  }
+}

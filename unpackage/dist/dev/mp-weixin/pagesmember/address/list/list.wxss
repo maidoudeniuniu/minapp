@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.xx-warp {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100vh;
+}
+.xx-warp .xx-warp-hb {
+  overflow-y: auto;
+  padding: 24rpx;
+}
+.xx-warp .xx-warp-hb .address-item {
+  background: #ffffff;
+  padding: 24rpx;
+  position: relative;
+  border-radius: 8rpx;
+}
+.xx-warp .xx-warp-hb .address-item .address-item-icon {
+  width: 52rpx;
+  height: 52rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEnklEQVRoQ+2aW2wUVRjH/zN7q5alZZNqazEEYmlEtj5INBgvpTS2bHjqdoVHpSkQXqj2BftmE/tGqA9goAEvjYlGNGwljUYbjTXBRh6419SavrRcwgNtKoSdq/nO9ODuzu4y7JyZjYmT7MNmzsz8f+f7nzPnO99Ipmma+A8fUjEAwjJNQyiaJEmgn8jDBmDFwxT+IC6aAi4SogCA9YClpWUsLNyCboiJgmmYiEarsW7dU5Bl2XEQDIN6lH4SZNkePRuArhsYH/8Zk7+eR0ZRYN3A/SHJEnRVR+vrLyKV2gEnkXDS5gEAb/z1N99hfPwXRGtWISBJMASNcVmSkMmoqH68CoODfYhEwqBbFxsSXM/Vq7O4dOUPtMSb8dymJhs4A+CNFxeXMTR0DKqusZBR74eCzsNdKk5kS1XV0b59K3bubCsZAcMwmM2mpi7is9E0MpkMamujGHhvP2Kx2pxrGQAJJX9dm57F8RNfIBgIgKzU3d2BjU3roSiK64FHnVRd/RjWrKkt6Ucu/repixgdPYOqqhAkSQaNoUOH9qGuLlYIwCK+dHkGIyNfIhgKICDL6O/vQUN9nSO/Oh0lpWyTLz4cCTEd9+7dRzLZge1tWwtbiF94+coMThBAkAAk9B18C2vXNoDOi5r6it2nlPiuZAfaC4inTluxkBWBfIB3+t5GY2O90AgUilRp8W+gve1lZiGayfKPigM4Ec/HaCH4igK4FV9RC4kQXzEAUeIrAiBSvO8AosX7CuBGPF/qFFrc+TILuRHPp05FUREKBW0vVM8BRIg/e/YnTE7+jhe2xPFmakfO68BTADfiuV3u3FnE+4NHoWk6WxH0v7sHGzY8/WB14BmAG/EsqV1JPefnb2D4w0/Zf1qO9/Sk8HxLM1uf0fLHEwC34rMBKK09MnwKumFC13T09u5GfHMTy1UoBRAOIEJ8LsBNHBn+mAGQjfb27kJ880ZvIiBKfEUARIr3HUC0eF8B+GzBc9jsNLAraSUjpdbzxVJRft+FBQ/HgFfifYkA79Xp6b9w9NjniEToNW8l4G56Pn8L0rMI0LZLICAjnf4R6bEJxGKrcffufSS7O1kCXo5tsu3kuYX4A+bm5nHy1Fds8ymR2IZtrS+5Fu+LhbJ7i2yj6zrbvHWyn+lkD8nzCOR7NbvXnAh8WBvfALhwlh0JLF74CvCw3izn/P8AtDfq19ZioQgJiYAXm7tO7UQAlLBYCc0nzpbT9u31PWiof0LY1OhUfPaMduPmbRw+fJLV6jSVEppdaInb8oGVAse1WRwfsQocmq4jlexEc/N6ZDLuCxyPIp4DhMNhzPw5h9Onv2dvfdK0b+9ubHr2mdyMjPuNKpMfDH0ERdNAG9kiS0yPCsDbqxrlvqTGRCgQxMDAAVZu4pptRb6xsQmMfTuB6OpVoMKcqCJfuQCkQTdNLC/9jUTiNSS7Ou0lpuybU3JyJv0Dzp27AEVVhZVZywaQJUTCYbz6yhYkEq3MStlHyUL39eu3oOliCt3lAlCNrLHxSdTU/GubkgCi1zTlCs+/zvomhb61yD3j68ce5cJQolRsmVUUoNyH+X3dPzyYPMs+O2aeAAAAAElFTkSuQmCC) center center no-repeat;
+  background-size: 32rpx auto;
+}
+.xx-warp .addressBox {
+  padding-bottom: 180rpx;
+}
+.xx-warp .xx-warp-fb {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 750rpx;
+  padding: 14rpx 0;
+}
+.add-button {
+  width: 702rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  background: #26273a;
+  border-radius: 4rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+}
+

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.scroll-Y.data-v-57280228 {
+  height: 100vh;
+}
+.xx-item.data-v-57280228 {
+  background: #ffffff;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.xx-item .xx-item-img.data-v-57280228 {
+  width: 220rpx;
+  height: 220rpx;
+  overflow: hidden;
+  margin-right: 24rpx;
+}
+.xx-item .xx-item-info.data-v-57280228 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.xx-item .xx-item-info .xx-item-info-bd.data-v-57280228 {
+  min-height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.xx-item .xx-item-info .xx-item-info-bd .xx-item-title.data-v-57280228 {
+  max-height: 80rpx;
+  overflow: hidden;
+}
+.xx-item .xx-item-info .xx-item-info-bd .xx-item-number.data-v-57280228 {
+  height: 52rpx;
+  line-height: 52rpx;
+}
+

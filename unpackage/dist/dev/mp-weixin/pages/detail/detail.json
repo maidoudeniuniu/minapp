@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "contact": "/components/contact/contact",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "cart-item": "/components/sku/sku",
+    "share-component": "/components/share/share",
+    "price-component": "/pages/detail/price",
+    "back-top": "/components/backtop/top"
+  }
+}

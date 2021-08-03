@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--通过覆盖资源id的形式自定义美洽UI START-->
+
+    <!--标题栏背景颜色-->
+    <color name="mq_titleBackground">#6C9EFC</color>
+
+    <!--标题栏字体颜色-->
+    <color name="mq_titleTextColor">#E6E6EA</color>
+
+    <!--聊天界面左边气泡背景颜色-->
+    <color name="mq_leftChatBubbleColor">#E6E6EA</color>
+
+    <!--聊天界面左边气泡文字颜色-->
+    <color name="mq_leftChatTextColor">#000000</color>
+
+
+    <!--聊天界面右边气泡背景颜色-->
+    <color name="mq_rightChatBubbleColor">#0BB9B6</color>
+
+
+    <!--聊天界面右边气泡文字颜色-->
+    <color name="mq_rightChatTextColor">#ffffff</color>
+
+
+
+    <!--通过覆盖资源id的形式自定义美洽UI END-->
+</resources>

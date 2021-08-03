@@ -1,0 +1,1 @@
+<view class="xx-warp flexColumn"><view class="xx-warp-hb flex1 flexColumn"><view class="addressBox"><image class="img" src="{{src+'not-address.png'}}"></image><view class="txt">您还没有添加收货地址～</view></view></view><view class="xx-warp-fb"><view class="add-button medium" type="primary" data-event-opts="{{[['tap',[['goadd',['$event']]]]]}}" bindtap="__e">新增收货地址</view></view></view>

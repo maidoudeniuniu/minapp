@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+button.data-v-8f00cf4a {
+  margin: inherit;
+  width: inherit;
+  border-radius: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+button.data-v-8f00cf4a::after {
+  display: none;
+}
+.button-box.data-v-8f00cf4a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 750rpx;
+  background-color: #FFFFFF;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.button-box .button.data-v-8f00cf4a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 110rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.button-box .center-line.data-v-8f00cf4a {
+  width: 1rpx;
+  height: 48rpx;
+  background: #E8E8E8;
+}
+.button-box .online.data-v-8f00cf4a {
+  font-family: PingFangSCRegular;
+  font-size: 24rpx;
+  color: #26273A;
+}
+.button-box .tel.data-v-8f00cf4a {
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  color: #B1B2C1;
+}
+.button-box .tel .txt.data-v-8f00cf4a {
+  text-align: center;
+}
+

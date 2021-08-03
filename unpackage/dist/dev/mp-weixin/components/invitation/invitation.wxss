@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.InvitationModule.data-v-05a18bb8 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+.InvitationModule .InvitationMask.data-v-05a18bb8 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+.InvitationModule .InvitationBody.data-v-05a18bb8 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding-bottom: 84rpx;
+}
+.InvitationModule .InvitationBody .xx-warp-login.data-v-05a18bb8 {
+  text-align: center;
+  position: relative;
+}
+.InvitationModule .InvitationBody .xx-warp-login-txt.data-v-05a18bb8 {
+  height: 52rpx;
+  line-height: 52rpx;
+}
+.InvitationModule .InvitationBody .wx-warp-closeIcon.data-v-05a18bb8 {
+  position: absolute;
+  top: 0;
+  right: 30rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAEn0lEQVR4Xu2bTW9TRxSG33OvQ6oWAVJXIIU4xgQWlE2qxoqF5G4K6Y5C+hdYtoLfAWp3/Q1NSVcoKZsGVJCRyIZuaAmOYUFXrRBqQSX2DJr7QRzbsa/n41yDJqsouZ4589z3nJk555jgfwYSIM9nMAEPaIhCPCAPyCyIeAV5BXkFmRHwCjLj52OQV5BXkBkBJgUpV5VOLR19cCs2mcagILFbAOj8ffTl2PuEVZtMAUWfLxZrk83m+v/JGtXfFLA8fhScSMnl8uK+zc3V14kR2urWBRTJt1SqHhXU+h4SlYDorhTB5a2tu0+ApRBYbvMSiudUNkmIqxLtakBBHTL8ttG48xSAlsuZATo2f11KfAVgG8AEgD+koHPNZr3JCymGUyzWihS8WgNwIrWJiH5uPK4rG9kARRPNzc19+PfzwiOSOAJAqUW5VQ6QUjiVIgWyE45yt1BC/nVg/6HjDx7c/E8HkpGCZsqVHyHkUoeCWgAKfErqCye1IVI1BXS9sVm/qANHhQhdQOrtiNjf278A8iSA1DAmSAPhvLUBMjwbx8Volx1589AFpOBGExaLu6TNBCkbnJ14qAfHREHJBjWqoTZ2N945TRSUAyReOBYUlJ50OAznmKP35GZBQRyQ8oFjUUEuIeUHxwEgNaTVBeW4U8Yv3aKLdfqvFUi5w3EIyFhJ0XWmXF6cbIt/fgPwKf9B1KmCTGNScjOfnf9StnAjuespRak7H+NVxpmLGbubyt+ImdnPzqBFt5PRFJyQ757HoiBTJQGl0vwPEriUjHQfMrzImXNyFKT7pcq0AzeVZuerAA7s/+DgrSRtoXXx1EngMQLaM3CnrtOTBajVaoX19XX1/zRlquxlTekyA9oTUpr03wuSAJYIWFbPaeeX3wEF7Y5JU1PVI4WJKJ90KsnVKNdhyidlw5WDgnZUND195nAQbt/sAqQeGBtIOQDqG6xTF0szfmOjJGZAMZyZmYVpkFhLUrVpkO4uPo4FJEZAfeGkrpRAot/jyCA/SU7N6mCYq7sxARoIJwXwZ2u78LnCU5ho/QpgNq/7V2f4ZgCU5YBID6XAYlxwVKVsVQjAaj7Vkt27m2NA2eBABud2rg/KwJ44xVQt6d36HQLSgZPW8zO5JEuZ2xGgLHCG1fFtjJHtMDjoKQeAbC7M5lh6sCwDcrEgF2Nmh2URkMuFuBx7MCxLgDgWwDGHk12M03DOuaykXPkNtlx3GxqMTFwsx7rVqC+Gv/0lghPfylXCK+oJZD7tZoFEDwnh2aSJUyuPrauguMu1XPlJCnlhnFvwENDy1mb9a84WvAjO6dNffPTi3+ePCHR4rJs4Cc8+PtQ6vrGx8VIHkpmCjlVWpJTnx6cNuKfTdYIIK43H95TK2dqAVeSPXaxUPQpqfyekqBDCO4TgSuzvcXwYukVYfWDngkuBuCakXAChHsjCN3k0kqdLixTY1fbPWrfqYvz2qwhdX4/QLhXpulhql9UvjlgSlFWbTAF1Kkn7LVkC0z2MVszpN4gj+96PYW0p6P2g0WcVHtCQV+sBeUBm3u8V5BXkFWRGwCvIjJ+PQV5BXkFmBIZ8+g0vQnqF7MfsrQAAAABJRU5ErkJggg==) no-repeat;
+  width: 52rpx;
+  height: 52rpx;
+  background-size: 52rpx auto;
+}
+.InvitationModule .InvitationBody .xx-warp-login-form.data-v-05a18bb8 {
+  padding: 0 24rpx;
+}
+

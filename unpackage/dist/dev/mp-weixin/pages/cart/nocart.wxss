@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.xx-warp.data-v-3ab66b72 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.xx-warp .xx-nocart.data-v-3ab66b72 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -155rpx;
+  width: 310rpx;
+  margin-top: -200rpx;
+  overflow: hidden;
+}
+.xx-warp .xx-nocart .xx-nocart-icon.data-v-3ab66b72 {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+}
+

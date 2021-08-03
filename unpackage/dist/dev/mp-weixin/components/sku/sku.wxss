@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.skuBox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  z-index: 10000;
+}
+.skuBox .skuBox-hd {
+  background: rgba(0, 0, 0, 0.2);
+}
+.skuBox .googds-sku-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow-y: auto;
+}
+.skuBox .skuBox-sku {
+  position: relative;
+  background: #ffffff;
+  padding: 24rpx;
+  padding-bottom: calc(0px + 10px);
+  z-index: 10001;
+  height: 60vh;
+}
+.skuBox .skuBox-sku .googds .googds-img {
+  height: 220rpx;
+  width: 220rpx;
+  background: #ffffff;
+}
+.skuBox .skuBox-sku .googds .googds-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.skuBox .skuBox-sku .googds .googds-info .googds-close {
+  margin-bottom: 90rpx;
+}
+.skuBox .skuBox-sku .googds .googds-info .googds-close-icon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAEn0lEQVR4Xu2bTW9TRxSG33OvQ6oWAVJXIIU4xgQWlE2qxoqF5G4K6Y5C+hdYtoLfAWp3/Q1NSVcoKZsGVJCRyIZuaAmOYUFXrRBqQSX2DJr7QRzbsa/n41yDJqsouZ4589z3nJk555jgfwYSIM9nMAEPaIhCPCAPyCyIeAV5BXkFmRHwCjLj52OQV5BXkBkBJgUpV5VOLR19cCs2mcagILFbAOj8ffTl2PuEVZtMAUWfLxZrk83m+v/JGtXfFLA8fhScSMnl8uK+zc3V14kR2urWBRTJt1SqHhXU+h4SlYDorhTB5a2tu0+ApRBYbvMSiudUNkmIqxLtakBBHTL8ttG48xSAlsuZATo2f11KfAVgG8AEgD+koHPNZr3JCymGUyzWihS8WgNwIrWJiH5uPK4rG9kARRPNzc19+PfzwiOSOAJAqUW5VQ6QUjiVIgWyE45yt1BC/nVg/6HjDx7c/E8HkpGCZsqVHyHkUoeCWgAKfErqCye1IVI1BXS9sVm/qANHhQhdQOrtiNjf278A8iSA1DAmSAPhvLUBMjwbx8Volx1589AFpOBGExaLu6TNBCkbnJ14qAfHREHJBjWqoTZ2N945TRSUAyReOBYUlJ50OAznmKP35GZBQRyQ8oFjUUEuIeUHxwEgNaTVBeW4U8Yv3aKLdfqvFUi5w3EIyFhJ0XWmXF6cbIt/fgPwKf9B1KmCTGNScjOfnf9StnAjuespRak7H+NVxpmLGbubyt+ImdnPzqBFt5PRFJyQ757HoiBTJQGl0vwPEriUjHQfMrzImXNyFKT7pcq0AzeVZuerAA7s/+DgrSRtoXXx1EngMQLaM3CnrtOTBajVaoX19XX1/zRlquxlTekyA9oTUpr03wuSAJYIWFbPaeeX3wEF7Y5JU1PVI4WJKJ90KsnVKNdhyidlw5WDgnZUND195nAQbt/sAqQeGBtIOQDqG6xTF0szfmOjJGZAMZyZmYVpkFhLUrVpkO4uPo4FJEZAfeGkrpRAot/jyCA/SU7N6mCYq7sxARoIJwXwZ2u78LnCU5ho/QpgNq/7V2f4ZgCU5YBID6XAYlxwVKVsVQjAaj7Vkt27m2NA2eBABud2rg/KwJ44xVQt6d36HQLSgZPW8zO5JEuZ2xGgLHCG1fFtjJHtMDjoKQeAbC7M5lh6sCwDcrEgF2Nmh2URkMuFuBx7MCxLgDgWwDGHk12M03DOuaykXPkNtlx3GxqMTFwsx7rVqC+Gv/0lghPfylXCK+oJZD7tZoFEDwnh2aSJUyuPrauguMu1XPlJCnlhnFvwENDy1mb9a84WvAjO6dNffPTi3+ePCHR4rJs4Cc8+PtQ6vrGx8VIHkpmCjlVWpJTnx6cNuKfTdYIIK43H95TK2dqAVeSPXaxUPQpqfyekqBDCO4TgSuzvcXwYukVYfWDngkuBuCakXAChHsjCN3k0kqdLixTY1fbPWrfqYvz2qwhdX4/QLhXpulhql9UvjlgSlFWbTAF1Kkn7LVkC0z2MVszpN4gj+96PYW0p6P2g0WcVHtCQV+sBeUBm3u8V5BXkFWRGwCvIjJ+PQV5BXkFmBIZ8+g0vQnqF7MfsrQAAAABJRU5ErkJggg==) center right no-repeat;
+  width: 44rpx;
+  height: 44rpx;
+  background-size: 44rpx auto;
+}
+.skuBox .skuBox-sku .googds-sku .googds-sku-box {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.skuBox .skuBox-sku .googds-sku .googds-sku-box .sku-item {
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 2rpx solid #dbdce2;
+  border-radius: 2rpx;
+  padding: 0 20rpx;
+  margin-right: 24rpx;
+  margin-bottom: 20rpx;
+}
+.skuBox .skuBox-sku .googds-sku .googds-sku-box .sku-no {
+  border: #dbdce2 2rpx dashed;
+  color: #dbdce2;
+}
+.skuBox .skuBox-sku .googds-sku .googds-sku-box .sku-item-ative {
+  border: #ff525d 2rpx solid;
+  color: #ff525d;
+}
+.skuBox .skuBox-sku .googds-num {
+  position: relative;
+  margin-top: 40rpx;
+}
+.skuBox .skuBox-sku .googds-num .xx-warp-cartNum {
+  width: 138rpx;
+  height: 60rpx;
+  border: 2rpx solid #dbdce2;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+.skuBox .skuBox-sku .googds-num .xx-warp-cartNum .min {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAA9UlEQVRYR+2WMW7CQBBF32AofQjTcASUVHuQUOB7JSnIQbaKxA2iFPgQLgEPIlKkKHL4MkYKxbj9u543b8aSjTt77M54CCA1kTAUhpQBlccOhSFlQOWxQ2MNWUqpaNv2JibLsvSc8xHwv8BuUkh1PSSXQFX1uIJu4c6e6ZV/BwfcjBn4R9Ns3y4B9gKllKY558N8/lA73TNw1lwM6bTnbAdMDOrdbvv6XeP3OQG0XDu8AF8v+zegn4WravkEtnC3PbgccT+0uZnPYPLZNO+bwSMbaWLUddVxfPbK0Cj911wOIGUtDIUhZUDlsUNhSBlQeeyQMnQCOHNKJRrt3hEAAAAASUVORK5CYII=) center center no-repeat;
+  background-size: 24rpx auto;
+  width: 24rpx;
+  height: 60rpx;
+  margin-left: 12rpx;
+}
+.skuBox .skuBox-sku .googds-num .xx-warp-cartNum .nomin {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAABBUlEQVRYR+2WQQ7BUBCG/3mPpWtwCIm0a8IFWOi9sOACBNs2Es4gvYalvo6QSESqk7YEyXQ777355puZpIQf++jHeKBAUkfUkBqSDEhxnSE1JBmQ4jpDlQwxM0VRZOO48RaTzeaJPc9zRMSvwN6SSKq6SFwEWq2ikTG2xYQz0pJ/BwZMjLoDHwe9ziIPMBMoDMOa7/vJensIUpdMADgAtkilGWdTAMYaG3S77dk9x/O5XKDNZj92qZsCuD32NaDHxMv1bmiYWkx8JiKxxVnQfN0Opjqzi/t9b164ZRVNVLqeW7GuPVByjSs1Jf9yqSH9II8aEuVqyyRFakgNSQakuM7Q3xm6AM6ZWSU7RxkMAAAAAElFTkSuQmCC) center center no-repeat !important;
+  background-size: 24rpx auto !important;
+  width: 24rpx;
+  height: 60rpx;
+  margin-left: 12rpx;
+}
+.skuBox .skuBox-sku .googds-num .xx-warp-cartNum .cartNum {
+  line-height: 60rpx;
+  text-align: center;
+}
+.skuBox .skuBox-sku .googds-num .xx-warp-cartNum .plus {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAB3UlEQVRYR+2Xz07CQBDGv9nCxcgD6EUKJD5AD4AXe/YZ/AfvoaA+h//AZ9BrTwqH3o1Rihd9AIwXYMcsBmgUXGwaSkh7nezOt79vdnZKWLCPFkwPYkE6R5aTkG3bCXVyx3F6OgK6+HISymYLh8xMrVbzUkdAFw9MSNmkLDJzW3uQ/dogEYsDz3uoDWO65JPigQVZlpV0XbebzhWqJLnyrYdO2s+N6jAWjaB0oUKCqwNBkqrtduMkWkF+QrEgX1FMrKE5ECLbto1Op/Or+N+B5Jvrfm6YxVNB8khplSzOXr2H43XLWlkDuj+LOpVKseM4fVVu0wo+3Fs2B0Iwza09QG4yo4vEeDrgPomE4A8psQPi7cEtYziGoLuepFUyWI4o9MBESAL86HnNm7/awURCw8aWyRTLDHkOQGE2gvQV3xolUBBQVh19WvPUCMqXGLhQ5aE2i0yQP7Fp5ncB2mSmLsDjAyRYEIsPlnKHCPbQMhLilkmuokdjy0BMxElAPHneff3fls1CIr72OkpREZqqKxY0s2ULPX5EOaCNRlizuA+S1wOiwtj3nu/rkYywfkvTmXzJIOKXl8aVzmpdPPBrr9s4aDwUQfGPYlD8QdaFYlmQxKGPsGGK8O+1cIS+AHypfTRqFEtCAAAAAElFTkSuQmCC) center center no-repeat;
+  background-size: 24rpx auto;
+  width: 24rpx;
+  height: 60rpx;
+  margin-right: 12rpx;
+}
+.skuBox .skuBox-sku .googds-btn {
+  margin-top: 92rpx;
+  margin-bottom: 40rpx;
+}
+.skuBox .skuBox-sku .marking-price {
+  font-size: 32rpx;
+  color: #b1b2c1;
+  line-height: 38rpx;
+  margin-left: 6rpx;
+  text-decoration: line-through;
+}
+.buy-button {
+  height: 84rpx;
+  line-height: 84rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background: #26273A;
+  border-radius: 4rpx;
+  text-align: center;
+}
+

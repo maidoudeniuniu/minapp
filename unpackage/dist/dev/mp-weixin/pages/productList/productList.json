@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "熙选商品",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "warm-component": "/components/warm/warm"
+  }
+}

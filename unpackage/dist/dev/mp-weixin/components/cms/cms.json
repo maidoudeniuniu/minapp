@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "cms-banner": "/components/cms/cms-banner",
+    "cms-notice-bar": "/components/cms/cms-notice-bar"
+  }
+}

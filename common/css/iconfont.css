@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "custom-icon"; /* Project id 2573216 */
+  src: url('https://s.umeibei.com/app/iconfont/iconfont.woff2') format('woff2'),
+       url('https://s.umeibei.com/app/iconfont/iconfont.woff') format('woff'),
+       url('https://s.umeibei.com/app/iconfont/iconfont.ttf') format('truetype');
+}
+
+.custom-icon {
+  font-family: "custom-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-icon-logistics_yinan:before {
+  content: "\e617";
+}
+
+.custom-icon-Manageaddress1:before {
+  content: "\e68b";
+}
+
+.custom-icon-a-dropout:before {
+  content: "\e68a";
+}
+
+.custom-icon-xixuanlogo:before {
+  content: "\e616";
+}
+
+.custom-icon-logistics_shoujian:before {
+  content: "\e60c";
+}
+
+.custom-icon-logistics_paisong:before {
+  content: "\e60d";
+}
+
+.custom-icon-logistics_zaitu:before {
+  content: "\e60e";
+}
+
+.custom-icon-logistics_notracking:before {
+  content: "\e60f";
+}
+
+.custom-icon-Ordercomplete:before {
+  content: "\e610";
+}
+
+.custom-icon-logistics_received:before {
+  content: "\e611";
+}
+
+.custom-icon-Orderwaittopay:before {
+  content: "\e612";
+}
+
+.custom-icon-Orderclosed:before {
+  content: "\e613";
+}
+
+.custom-icon-Orderreceiving:before {
+  content: "\e614";
+}
+
+.custom-icon-Orderwaitoshipping:before {
+  content: "\e615";
+}
+
+.custom-icon-Edit:before {
+  content: "\e60b";
+}
+
+.custom-icon-selected:before {
+  content: "\e60a";
+}
+
+.custom-icon-Back:before {
+  content: "\e600";
+}
+
+.custom-icon-Customer:before {
+  content: "\e601";
+}
+
+.custom-icon-decrease:before {
+  content: "\e602";
+}
+
+.custom-icon-More:before {
+  content: "\e603";
+}
+
+.custom-icon-Increase:before {
+  content: "\e604";
+}
+
+.custom-icon-Cart:before {
+  content: "\e605";
+}
+
+.custom-icon-Selected:before {
+  content: "\e606";
+}
+
+.custom-icon-Share:before {
+  content: "\e607";
+}
+
+.custom-icon-Rules:before {
+  content: "\e608";
+}
+
+.custom-icon-Manageaddress:before {
+  content: "\e609";
+}
+

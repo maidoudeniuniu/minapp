@@ -1,0 +1,1 @@
+<view><block wx:if="{{article.author}}"><view class="article-meta"><text class="article-author">{{article.author}}</text><text class="article-time">{{$root.g0}}</text></view></block><view class="article-content"><rich-text nodes="{{htmlNodes}}"></rich-text></view></view>

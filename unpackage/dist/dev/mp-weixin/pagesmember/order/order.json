@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "layout": "/components/layout/layout",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "invitation-component": "/components/invitation/invitation",
+    "order-item": "/pagesmember/order/orderItem"
+  }
+}
